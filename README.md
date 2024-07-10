@@ -52,6 +52,8 @@ visualization is the primary goal
 
 ## Machine Leearning Model for Segmentation and Classification
 ### Data Preparation
+- Simulate the Light-Sheet Fluorescence Imaging by taking vertical cuts of the 3D model (a discrete
+  number of images to reconstruct, don't use the entire 3D model!)
 - Export the 3D scene into a suitable format for training a machine learning model (e.g., images,
 point cload data)
 - Annotate the data, marking which partitions are positive and which are negative
