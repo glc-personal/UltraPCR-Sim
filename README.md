@@ -4,8 +4,9 @@
 This project is for simulating 3D Ultra PCR work.
 
 ## Notes
-This project is inspired by the work done at Enumerix. The work done here is only 
+- This project is inspired by the work done at Enumerix. The work done here is only 
 for my own interest to simulate the work they have been able to accomplish.
+- Simulation related content will be prefixed with an "S".
 
 ## Content
 - Tools
@@ -14,6 +15,7 @@ for my own interest to simulate the work they have been able to accomplish.
 - Setting Positive Partitions
 - Machine Learning Model for Segmentation and Classification
 - User Interface and Experimentation
+- Example Workflow
 
 ## Tools
 - **Blender**: for 3D modeling and visualization
@@ -84,3 +86,6 @@ point cload data)
 5. **Train Model**: train a mchaine learning model to segment and classify particles
 6. **Integrate and Test**: integrate the training model into the pipelien and run simulations
 to classify new partitions
+
+## Tech Stack
+- **Prototyping**: Python, Blender, PyTest
