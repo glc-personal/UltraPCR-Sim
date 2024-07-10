@@ -4,6 +4,7 @@ from UPS.Core.spartition import SPartition
 
 def test_spartition_creation():
 	'''
+	Test for SPartition creation.
 	'''
 	position = np.array([1.0, 2.0, 3.0])
 	radius = 1.5
