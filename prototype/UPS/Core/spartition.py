@@ -12,3 +12,12 @@ class SPartition:
 		self.status = status
 		self.sphericity_deviation = sphericity_deviation
 
+	def __eq__(self, other):
+		if not isinstance(other, SPartition):
+			return False
+		return (
+			np.array_equal(self.position, other.position) and
+			self.radius == other.radius and
+			self.status == other.status and
+			self.sphericity_deviation == other.sphericity_deviation
+		)
